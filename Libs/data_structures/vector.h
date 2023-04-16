@@ -1,6 +1,6 @@
 #include "stdbool.h"
 
-typedef struct vector{
+typedef struct vector {
     int *data;
     size_t size;
     size_t capacity;
@@ -28,11 +28,11 @@ void test_pushBack_fullVector();
 
 void test_popBack_notEmptyVector();
 
-int* atVector(vector *v, size_t index);
+int *atVector(vector *v, size_t index);
 
-int* back(vector *v);
+int *back(vector *v);
 
-int* front(vector *v);
+int *front(vector *v);
 
 void test_atVector_notEmptyVector();
 
